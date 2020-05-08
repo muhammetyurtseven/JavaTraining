@@ -1,0 +1,3 @@
+String[] os = new String[] { "Mac", "Linux", "Windows" };
+Arrays.sort(os);
+System.out.println(Arrays.binarySearch(os, "RedHat"));//Kod binarySearch çaðrýlmadan önce sýralanýr, ve sýralanan dizide "RedHat" hedef dizesi yoktur. Eðer olsaydý, ikinci ve üçüncü eleman arasýnda olurdu. Bunun Kuralý, ekleneceði yerdeki negatif dizini almak ve 1 çýkarmaktýr. Üçüncü öðe olarak eklenmesi gerekir. Dizinler sýfýr ile basladýgýndan, bu dizin 2'dir.Karþýlýðý -2 olan negatifi alýrýz ve 1'i çýkarýrýz ve -3 olacaktýr. Bu nedenle, Seçenek C seçeneðidir.
