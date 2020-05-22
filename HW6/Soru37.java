@@ -1,0 +1,10 @@
+package pet;
+public class Puppy {
+    public static int wag = 5; // q1 
+    public void Puppy(int wag) { // q2
+    this.wag = wag; } 
+    public static void main(String[] tail) { 
+        System.out.print(new Puppy(2).wag); // q3 Puppy sýnýfý bir kurucu bildirmez, bu nedenle varsayýlan argüman yapýcý derleyici tarafýndan otomatik olarak eklenir. Bu nedenle, new Puppy(2) nesnesini oluþturmak için main () yöntemindeki satýr derlenmez, çünkü int deðerini alabilen ve D Seçeneðini doðru yanýt yapan bir kurucu yoktur.
+        }
+    
+}
